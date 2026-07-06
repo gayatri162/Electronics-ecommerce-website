@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Stack</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav>
+        
+        <div class="logo">
+           <img src="images/logo.png">
+        </div>
+         
+         <div class="search-box">
+          <input type="text" id="search" placeholder="🔍 Search Products...">
+        </div>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#products">Products</a></li>
+            <li> 
+                <a href="html/cart.html">
+                Cart 🛒 <span id="cart-count">0</span> </a>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+  
+    <section class="hero" id="home">
+
+       <div class="hero-text">
+        <h1>🔥 Summer Tech Sale</h1>
+
+        <p>Up to 40% OFF on Latest Electronics</p>
+
+        <a href="#products">
+        <button>Shop Now</button>
+        </a>
+        </div>
+
+       <div class="hero-image">
+       <img src="images/banner.png"alt="banner"> 
+       </div>
+    </section>
+
+<div class="filters">
+    <button class="filter-btn" data-category="All">
+        All
+    </button>
+
+    <button class="filter-btn" data-category="Laptop">
+        Laptop
+    </button>
+
+    <button class="filter-btn" data-category="Mobile">
+        Mobile
+    </button>
+
+    <button class="filter-btn" data-category="Audio">
+        Audio
+    </button>
+
+    <button class="filter-btn" data-category="Accessories">
+        Accessories
+    </button>
+
+    <button class="filter-btn" data-category="Wearable">
+        Wearable
+    </button>
+</div>
+
+    <section class="products" id="products">
+        <h2>Featured Products</h2>
+
+        <div class="product-container" id="product-container"> 
+                  <p id="no-results" style="display:none;text-align:center;">
+                     No products found.
+                  </p>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h3>Tech Stack</h3>
+        <p>📧 Email: support@techstack.com</p>
+        <p>📞 Phone: +91 9898989899</p>
+        <p>&copy; 2026 Tech Stack. All Rights Reserved.</p>
+    </footer>
+
+<div id="toast" class="toast">
+    ✅ Product added to cart!
+</div>
+    
+<script src="js/product.js"></script>
+ <script src="js/script.js"></script>
+</body>
+</html>
