@@ -90,6 +90,7 @@ python backend/app.py
 
 ## 🔗 Live Demo
 
+[click here]()
 
 ---
 
@@ -97,9 +98,13 @@ python backend/app.py
 
 **Gayatri**
 
+
+## 💼 Contact with me:-
+
+
 🐙 GitHub: [https://github.com/gayatri162](https://github.com/gayatri162)
 
-📁 Linkedin: [https://www.linkedin.com/in/gayatri-singh/](https://www.linkedin.com/in/gayatri-singh/)
+📁 Linkedin:[https://www.linkedin.com/in/gayatri-singh/](https://www.linkedin.com/in/gayatri-singh/)
 
 ---
 
