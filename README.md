@@ -32,6 +32,7 @@ TechStack is a full-stack electronics e-commerce web application. The platform a
 
 ### Deployment
 - Render
+- Vercel
 
 ---
 
