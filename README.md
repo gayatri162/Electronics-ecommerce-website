@@ -90,7 +90,7 @@ python backend/app.py
 
 ## 🔗 Live Demo
 
-[click here]()
+[click here](https://electronics-ecommerce-website-sigma.vercel.app/)
 
 ---
 
